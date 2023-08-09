@@ -1,0 +1,82 @@
+/* Reset some default styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body{
+    background-image: url(e0fe49f73302e6c98ac445b023d34b90.jpg);
+
+  }
+  
+  /* Styling for header */
+  
+  nav{
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-top: 10px;
+    margin-right: 20px;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  nav ul li a {
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Styling for hero section */
+  .hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: rgb(12, 12, 12);
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  /* Styling for features section */
+  .features {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 0 30px;
+  }
+  
+  /* Styling for footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
